@@ -13,4 +13,3 @@ def compile_problem():
     base_template_second_half.close()
     inits_template.close()
     
-compile_problem()
