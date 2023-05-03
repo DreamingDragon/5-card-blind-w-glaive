@@ -1,0 +1,12 @@
+;;;
+;;; A highly simplified problem for a MTG game
+;;; Created by Vincent Liu
+;;;
+(define (problem win)
+  (:domain mtg)
+  (:objects you opponent - player
+            thassas_oracle - wincon
+            force_of_will - counter
+			unmask - discard)
+; First Half End
+;

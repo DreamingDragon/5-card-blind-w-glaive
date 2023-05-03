@@ -1,0 +1,7 @@
+(define (plan win-solution)
+  (:problem win)
+  (:steps (play_wincon you thassas_oracle)
+          (play_counter opponent you force_of_will thassas_oracle)
+          (play_counter you opponent force_of_will force_of_will)
+          (resolve_interaction you you force_of_will force_of_will)
+          (resolve_wincon you thassas_oracle)))
